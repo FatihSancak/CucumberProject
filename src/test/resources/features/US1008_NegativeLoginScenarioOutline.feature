@@ -1,6 +1,7 @@
 Feature: US1008 kullanici farklı kullanici adı ve şifre ile giriş yapamaz -  Hotel My Camp Negative Login Outline
+  @negative
 
-  Scenario: TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz
+  Scenario Outline: TC13 yanlis kullanici adi ve sifrelerle giris yapilamaz
     Given kullanici "HMCUrl" anasayfasinda
     Then Login yazisina tiklar
     And gecersiz kullanici "<username>" girer
