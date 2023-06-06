@@ -1,5 +1,5 @@
 Feature: US1010 herokuapp Delete testi
-
+@heroku @sirali @pr1
   Scenario: TC15 herokuapp'dan delete butonu calismali
   Given kullanici "herokuappURL" anasayfasinda
   And add element butonuna basar

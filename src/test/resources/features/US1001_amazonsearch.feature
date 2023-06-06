@@ -8,14 +8,14 @@ Feature: amazonsearch.feature
     And sonuclarin Nutella icerdigini test eder
     And sayfayi kapatir
 
-  @Java @ikisi
+  @Java @ikisi @sirali
   Scenario: TC02 Kullanıcı Amazonda kelime aratır.
     Given kullanici amazon anasayfasinda
     Then kullanici Java icin arama yapar
     And sonuclarin Java icerdigini test eder
     And sayfayi kapatir
 
-  @Iphone
+  @Iphone @pr1
   Scenario: TC03 kullanici iphone aratır
     When kullanici amazon anasayfasinda
     And kullanici Iphone icin arama yapar

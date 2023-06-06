@@ -27,9 +27,9 @@ public class GuruStepDefinitions {
             }
         }
 
-        // ForLoop ile tüm sutun basliklarýný bana verilen istenenSutun deðeri ile karþýlatýrýldýç
-        // loop bittiðinde baþlýðýn bulunup bulunmadýðýný kontrol etmek ve
-        // bulundu iþse yoluma devam etmek gerekir.
+        // ForLoop ile tüm sutun basliklarini bana verilen istenenSutun degeri ile karsilatirildi
+        // loop bittiginde basligi bulunup bulunmadigini kontrol etmek ve
+        // bulundu ise yoluna devam etmek gerekir.
 
         if (istenenBaslikIndexi != -3) { // baslik bulundu
             List<WebElement> istenenSutundakiElementler = Driver.getDriver().findElements(By.xpath("//tbody//tr//td[" + istenenBaslikIndexi + "]"));
@@ -44,3 +44,4 @@ public class GuruStepDefinitions {
         }
     }
 }
+

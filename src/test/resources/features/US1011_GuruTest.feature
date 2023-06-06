@@ -7,7 +7,7 @@
 
 
 Feature:US1011 web tablosundaki istenen sütunu yazdırma
-  @guru
+  @guru @pr2
   Scenario: TC16 kullanici sutun basligi ile liste alabilmeli
     Given kullanici "guruURL" anasayfasinda
     And "Company" sutunundaki tum degerleri yazdirir.
